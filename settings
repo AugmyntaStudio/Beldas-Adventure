@@ -1,0 +1,5 @@
+OutputDirectory="C:\Users\natha\Documents\Files\Beta Studio\Games\The legend of belda\Game Code\dist"
+OutputName=Beldas_Adventure
+FileExtension=exe
+TargetDirectory="C:\Users\natha\Documents\Files\Beta Studio\Games\The legend of belda\Game Code\src"
+TargetFile=main.c
