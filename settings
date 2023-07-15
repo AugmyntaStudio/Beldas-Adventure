@@ -2,4 +2,4 @@ OutputDirectory="C:\Users\natha\Documents\Files\Beta Studio\Games\Belda's advent
 OutputName=Beldas_Adventure
 FileExtension=exe
 TargetDirectory="C:\Users\natha\Documents\Files\Beta Studio\Games\Belda's adventure\Game Code\src"
-TargetFile=main.cpp
+TargetFile=main.c

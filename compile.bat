@@ -77,7 +77,15 @@ echo Converting .rc file to .o file
 windres %TargetDirectory%\info\info.rc %TargetDirectory%\info\info.o
 echo .rc file converted succesfully
 echo Compiling code...
-g++ %TargetDirectory%\info\info.o -g %TargetDirectory%\%TargetFile% %TargetDirectory%\glad.c -o %OutputDirectory%\%OutputName%.%FileExtension% -lglfw3 -lopengl32 -lgdi32 -Wall -I%TargetDirectory% -I%TargetDirectory%\include -static-libgcc -static-libstdc++ -std=c++11
+::If you want to compile the program without seeing the command line use -mwindows on windows
+::If c++ use -static-libstdc++ and -std=c++11
+set glad=%TargetDirectory%\glad.c
+set window=%TargetDirectory%\engine\window\window.c
+set debug=%TargetDirectory%\engine\tools\debug.c
+set shader=%TargetDirectory%\engine\render\shader.c
+set render=%TargetDirectory%\engine\render\render.c
+set io=%TargetDirectory%\engine\io\io.c
+gcc %TargetDirectory%\info\info.o -g %TargetDirectory%\%TargetFile% %glad% %window% %debug% %render% %shader% %io% -o %OutputDirectory%\%OutputName%.%FileExtension% -lopengl32 -lgdi32 -lglfw3 -Wall -I%TargetDirectory% -I%TargetDirectory%\include -static-libgcc -std=c99
 echo Code compiled
 echo Zipping files...
 tar -caf Beldas_Adventure.zip dist/*
@@ -301,3 +309,4 @@ cd..
 cd..
 cd..
 title Command Prompt
+
