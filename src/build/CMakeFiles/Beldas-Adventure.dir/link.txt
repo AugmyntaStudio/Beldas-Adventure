@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/Beldas-Adventure.dir/main.c.o -o Linux64/Debug/Beldas-Adventure  "Linux64/Debug/static libs/libBSC-Engine.a" 

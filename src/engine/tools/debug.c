@@ -4,6 +4,7 @@
 #include <stdbool.h>
 
 // Third party libary's
+#include "glad/glad.h"
 #include "GLFW/glfw3.h"
 
 // Our own libary's

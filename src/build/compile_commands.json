@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/nate/repos/Beldas-Adventure/src/build",
+  "command": "/usr/bin/cc  -I/home/nate/repos/Beldas-Adventure/src/engine -g -o CMakeFiles/Beldas-Adventure.dir/main.c.o -c /home/nate/repos/Beldas-Adventure/src/main.c",
+  "file": "/home/nate/repos/Beldas-Adventure/src/main.c"
+},
+{
+  "directory": "/home/nate/repos/Beldas-Adventure/src/build/engine",
+  "command": "/usr/bin/cc  -I/home/nate/repos/Beldas-Adventure/src/engine -I/home/nate/repos/Beldas-Adventure/src/engine/. -I/home/nate/repos/Beldas-Adventure/src/engine/include -g -o CMakeFiles/BSC-Engine.dir/BSC-Engine.c.o -c /home/nate/repos/Beldas-Adventure/src/engine/BSC-Engine.c",
+  "file": "/home/nate/repos/Beldas-Adventure/src/engine/BSC-Engine.c"
+},
+{
+  "directory": "/home/nate/repos/Beldas-Adventure/src/build/engine",
+  "command": "/usr/bin/cc  -I/home/nate/repos/Beldas-Adventure/src/engine -I/home/nate/repos/Beldas-Adventure/src/engine/. -I/home/nate/repos/Beldas-Adventure/src/engine/include -g -o CMakeFiles/BSC-Engine.dir/glad.c.o -c /home/nate/repos/Beldas-Adventure/src/engine/glad.c",
+  "file": "/home/nate/repos/Beldas-Adventure/src/engine/glad.c"
+},
+{
+  "directory": "/home/nate/repos/Beldas-Adventure/src/build/engine",
+  "command": "/usr/bin/cc  -I/home/nate/repos/Beldas-Adventure/src/engine -I/home/nate/repos/Beldas-Adventure/src/engine/. -I/home/nate/repos/Beldas-Adventure/src/engine/include -g -o CMakeFiles/BSC-Engine.dir/io/io.c.o -c /home/nate/repos/Beldas-Adventure/src/engine/io/io.c",
+  "file": "/home/nate/repos/Beldas-Adventure/src/engine/io/io.c"
+},
+{
+  "directory": "/home/nate/repos/Beldas-Adventure/src/build/engine",
+  "command": "/usr/bin/cc  -I/home/nate/repos/Beldas-Adventure/src/engine -I/home/nate/repos/Beldas-Adventure/src/engine/. -I/home/nate/repos/Beldas-Adventure/src/engine/include -g -o CMakeFiles/BSC-Engine.dir/render/render.c.o -c /home/nate/repos/Beldas-Adventure/src/engine/render/render.c",
+  "file": "/home/nate/repos/Beldas-Adventure/src/engine/render/render.c"
+},
+{
+  "directory": "/home/nate/repos/Beldas-Adventure/src/build/engine",
+  "command": "/usr/bin/cc  -I/home/nate/repos/Beldas-Adventure/src/engine -I/home/nate/repos/Beldas-Adventure/src/engine/. -I/home/nate/repos/Beldas-Adventure/src/engine/include -g -o CMakeFiles/BSC-Engine.dir/render/shader.c.o -c /home/nate/repos/Beldas-Adventure/src/engine/render/shader.c",
+  "file": "/home/nate/repos/Beldas-Adventure/src/engine/render/shader.c"
+},
+{
+  "directory": "/home/nate/repos/Beldas-Adventure/src/build/engine",
+  "command": "/usr/bin/cc  -I/home/nate/repos/Beldas-Adventure/src/engine -I/home/nate/repos/Beldas-Adventure/src/engine/. -I/home/nate/repos/Beldas-Adventure/src/engine/include -g -o CMakeFiles/BSC-Engine.dir/tools/debug.c.o -c /home/nate/repos/Beldas-Adventure/src/engine/tools/debug.c",
+  "file": "/home/nate/repos/Beldas-Adventure/src/engine/tools/debug.c"
+},
+{
+  "directory": "/home/nate/repos/Beldas-Adventure/src/build/engine",
+  "command": "/usr/bin/cc  -I/home/nate/repos/Beldas-Adventure/src/engine -I/home/nate/repos/Beldas-Adventure/src/engine/. -I/home/nate/repos/Beldas-Adventure/src/engine/include -g -o CMakeFiles/BSC-Engine.dir/window/window.c.o -c /home/nate/repos/Beldas-Adventure/src/engine/window/window.c",
+  "file": "/home/nate/repos/Beldas-Adventure/src/engine/window/window.c"
+}
+]

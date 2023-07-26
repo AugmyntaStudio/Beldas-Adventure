@@ -3,20 +3,10 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-// Third party libary's
-#include "glad/glad.h"
-#include "GLFW/glfw3.h"
-#include "linmath.h"
-
 // Our own libary's
-#include "engine/debug.h"
-#include "engine/io.h"
-#include "engine/window.h"
-#include "engine/render.h"
-#include "engine/shader.h"
+#include "engine/BSC-Engine.h"
 
 // Initialize values
-RENDER Render;
 bool QuitApplication = false;
 void Update();
 #define TARGET_FPS 240

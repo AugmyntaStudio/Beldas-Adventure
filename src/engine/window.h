@@ -6,8 +6,8 @@
 #include <stdbool.h>
 
 // Third party libary's
-#include "glad/glad.h"
-#include "GLFW/glfw3.h"
+#include "include/glad/glad.h"
+#include "include/GLFW/glfw3.h"
 
 typedef struct RENDER
 {

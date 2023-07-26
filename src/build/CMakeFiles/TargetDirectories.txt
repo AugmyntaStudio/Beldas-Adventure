@@ -1,0 +1,6 @@
+/home/nate/repos/Beldas-Adventure/src/build/CMakeFiles/Beldas-Adventure.dir
+/home/nate/repos/Beldas-Adventure/src/build/CMakeFiles/edit_cache.dir
+/home/nate/repos/Beldas-Adventure/src/build/CMakeFiles/rebuild_cache.dir
+/home/nate/repos/Beldas-Adventure/src/build/engine/CMakeFiles/BSC-Engine.dir
+/home/nate/repos/Beldas-Adventure/src/build/engine/CMakeFiles/edit_cache.dir
+/home/nate/repos/Beldas-Adventure/src/build/engine/CMakeFiles/rebuild_cache.dir

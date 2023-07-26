@@ -1,0 +1,2 @@
+/usr/bin/ar qc "../Linux64/Debug/static libs/libBSC-Engine.a" CMakeFiles/BSC-Engine.dir/BSC-Engine.c.o CMakeFiles/BSC-Engine.dir/glad.c.o CMakeFiles/BSC-Engine.dir/io/io.c.o CMakeFiles/BSC-Engine.dir/render/render.c.o CMakeFiles/BSC-Engine.dir/render/shader.c.o CMakeFiles/BSC-Engine.dir/tools/debug.c.o CMakeFiles/BSC-Engine.dir/window/window.c.o
+/usr/bin/ranlib "../Linux64/Debug/static libs/libBSC-Engine.a"
