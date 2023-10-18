@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.5.0)
 project(BSC-Engine)
 
 # Generates a `compile_commands.json` that can be used for autocompletion
